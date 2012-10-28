@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/responsive.css" ],
+      "js": [ "js/jquery.js", "js/responsive.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "Makes your page responsive",
+   "name": "Responsify",
+   "permissions": [ "tabs", "http://*/*", "unlimited_storage", "bookmarks" ],
+   "version": "2"
+}
